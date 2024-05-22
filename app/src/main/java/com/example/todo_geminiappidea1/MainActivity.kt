@@ -35,11 +35,11 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Todo_GeminiAppIdea1() {
     val tasks = listOf(
-        Task(1, "Grocery shopping", "2023-08-01", false),
-        Task(2, "Finish work report", "2023-08-05", false),
-        Task(3, "Call the doctor", "2023-08-10", false),
-        Task(4, "Pay bills", "2023-08-15", false),
-        Task(5, "Go to the gym", "2023-08-20", false)
+        Task(1, "Grocery shopping", "2024-08-01", false),
+        Task(2, "Finish work report", "2024-08-05", false),
+        Task(3, "Call the doctor", "2024-08-10", false),
+        Task(4, "Pay bills", "2024-08-15", false),
+        Task(5, "Go to the gym", "2024-08-20", false)
     )
 
     TaskList(tasks = tasks)

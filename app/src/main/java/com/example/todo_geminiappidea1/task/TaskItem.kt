@@ -23,6 +23,7 @@ import com.example.todo_geminiappidea1.data.Task
 @Composable
 fun TaskItem(task: Task) {
     Card {
+        //TODO: Find a way to fix this Task Item to look good
         Column(
             modifier = Modifier
                 .padding(16.dp)

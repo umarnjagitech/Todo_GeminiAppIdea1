@@ -24,13 +24,7 @@ import com.example.todo_geminiappidea1.data.Task
 fun TaskItem(task: Task) {
     Card {
         //TODO: Find a way to fix this Task Item to look good
-        Column(
-            modifier = Modifier
-                .padding(16.dp)
-                .fillMaxWidth(1f),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ) {
+        Row {
             Column(
                 modifier = Modifier
                     .padding(16.dp)
@@ -61,5 +55,5 @@ fun TaskItem(task: Task) {
                 }
             }
         }
+        }
     }
-}

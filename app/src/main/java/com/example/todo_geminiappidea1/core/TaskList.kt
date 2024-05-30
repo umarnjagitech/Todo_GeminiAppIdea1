@@ -21,8 +21,7 @@ fun TaskList(tasks: List<Task>) {
         modifier = Modifier
             .fillMaxSize()
             .padding(9.dp)
-            .fillMaxWidth()
-            .verticalScroll(rememberScrollState(), true),
+            .fillMaxWidth(),
         verticalArrangement = Arrangement.SpaceAround,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {

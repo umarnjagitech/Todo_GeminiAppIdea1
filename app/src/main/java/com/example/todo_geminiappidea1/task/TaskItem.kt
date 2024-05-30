@@ -5,6 +5,7 @@ package com.example.todo_geminiappidea1.task
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -37,7 +38,7 @@ fun TaskItem(task: Task) {
                 Row {
                     Row(
                         modifier = Modifier
-                            .padding(9.dp)
+                            .padding(5.dp)
                             .fillMaxWidth(),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
@@ -49,9 +50,14 @@ fun TaskItem(task: Task) {
                         }
 
                     }
-                    MarkTaskComplete(task = task) {
+
+                    //TODO Figure out how to move the button away from the screen edge.
+                    MarkTaskComplete(
+                        task = task
+                    ) {
 
                     }
+                    Spacer(modifier = Modifier.padding(16.dp))
                 }
             }
         }

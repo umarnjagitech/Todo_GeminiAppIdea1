@@ -53,11 +53,12 @@ fun Todo_GeminiAppIdea1() {
     )
 
     TaskList(tasks = tasks)
-    AddTask(onAddTask = {})
+    //TODO: Find out how to add a floating action button to call the AddTask function
+    //AddTask(onAddTask = {})
 
-    EditTask(task = tasks[0], onEditTask = {})
+    /*EditTask(task = tasks[0], onEditTask = {})
     DeleteTask(task = tasks[2], onDeleteTask = {})
-    MarkTaskComplete(task = tasks[3], onToggleTaskComplete = {})
+    MarkTaskComplete(task = tasks[3], onToggleTaskComplete = {})*/
 
     // Ugly stuff - let's work on the UI next!!!
 
